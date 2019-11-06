@@ -21,7 +21,8 @@ first thought
 - function of real account page
 - record the money spent?
 - monthly report? 
-- record stock (common with fake account, only the account data is different, eg balance)
+- record stock (common logic with fake account, only the account data is different, eg balance)
+.- stock analysis (common logic with fake account)
 - get stock information 
 
 
@@ -30,7 +31,8 @@ step 4
 to be discussed
 first thoughts only 
 - fake account pages
-- get stock info (common logic with real account)
+- get stock info (common logic with real account) 
+- stock analysis (common logic with real account)
 - simple algo trade?
 
 
