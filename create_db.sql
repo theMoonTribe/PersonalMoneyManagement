@@ -1,0 +1,9 @@
+CREATE DATABASE `money`
+
+USE `money`;
+CREATE TABLE users(
+	id INT(8) AUTO_INCREMENT,
+	username VARCHAR(50) NOT NULL,
+	pass VARCHAR(50) NOT NULL,
+	PRIMARY KEY(id)
+);

@@ -1,0 +1,36 @@
+ToDo
+
+Step 1
+----------------------
+home page, fake account, real account page
+basic navigation to other pages
+
+Step 2
+---------------------------
+to be discussed
+first thought
+- account ? and check login or not?
+- account and ORM 
+- account have access to pages
+- account data for fake account and real account page
+
+Step 3
+-------------------------
+to be discussed
+first thought
+- function of real account page
+- record the money spent?
+- monthly report? 
+- record stock (common logic with fake account, only the account data is different, eg balance)
+.- stock analysis (common logic with fake account)
+- get stock information 
+
+
+step 4
+-----------------------
+to be discussed
+first thoughts only 
+- fake account pages
+- get stock info (common logic with real account) 
+- stock analysis (common logic with real account)
+- simple algo trade?
