@@ -2,41 +2,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}{% endblock %}</title>
+    <title>Personal Management System</title>
     
     {% load static %}
     <link rel="stylesheet" href="{% static "bulma-0.8.0/css/bulma.min.css" %}" type="text/css">
     <script type="text/javascript" src="{% static "bulma-0.8.0/js/all.js" %}"></script>
   </head>
 <body>
-
-<nav class="level">
-  <p class="level-item has-text-centered">
-    Saving
-  </p>
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Index</a>
-  </p>
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Saving</a>
-  </p>
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Stock</a>
-  </p>
-  <!--  do something to distinct login or logout -->
-  <p class="level-item has-text-centered">
-    <a class="button is-success">Login</a>
-  </p>
-</nav>
-
-{% block section %}{% endblock %}
-
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="#">
+                    <img src="{% static "images/the-moon-tribe-logo.png" %}" alt="Logo">
+                    <h4 class="title is-4"> The Moon Tribe</h4>
+                </a>
+				
+				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic"> 
+					<span aria-hidden="true"></span> 
+					<span aria-hidden="true"></span> 
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+	
+			<div id="navbarBasic" class="navbar-menu">
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="buttons">
+							<a class="button is-primary"> <strong>Sign up</strong>
+							</a> <a class="button is-light"> Log in </a>
+						</div>
+					</div>
+				</div>
+			</div>
+	 </nav>
+<div class="container">
+{% block content %}{% endblock %}
+</div>
+<div class="container">
 <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      &copy; theMoonTribe.All Right Reserved</a>
+      The Moon Tribe - Personal Money Management System
     </p>
   </div>
   </footer>
+</div>
   </body>
 </html>
