@@ -1,4 +1,4 @@
-Author: Ray Wong (wongyatho2@gmail.com)
+Author: Wong Yat Ho(wongyatho2@gmail.com)
 
 Before you start this Django project:
 You need to install following development tools:
